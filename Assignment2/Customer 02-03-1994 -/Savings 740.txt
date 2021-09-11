@@ -1,0 +1,14 @@
+Account Number: 19066478538
+
+BSB Number: 740
+
+Balance: 0.0
+
+Withdraw Limit: 2500.0
+
+Daily Withdraw Total: 0.0
+
+Interest Rate: 0.015
+
+Interest Gained: 0.0
+

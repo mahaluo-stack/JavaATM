@@ -1,0 +1,14 @@
+Account Number: 40751842712
+
+BSB Number: 124
+
+Balance: 0.0
+
+Withdraw Limit: 2500.0
+
+Daily Withdraw Total: 0.0
+
+Interest Rate: 0.015
+
+Interest Gained: 0.0
+

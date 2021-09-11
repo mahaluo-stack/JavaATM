@@ -1,0 +1,12 @@
+Account Number: 81714918504
+
+BSB Number: 805
+
+Balance: 0.0
+
+Daily Withdraw Total: 0.0
+
+Interest Rate: 0.04
+
+Interest Gained: 0.0
+

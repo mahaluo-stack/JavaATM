@@ -1,0 +1,12 @@
+Account Number: 69371446878
+
+BSB Number: 050
+
+Balance: 0.0
+
+Daily Withdraw Total: 0.0
+
+Interest Rate: 0.04
+
+Interest Gained: 0.0
+

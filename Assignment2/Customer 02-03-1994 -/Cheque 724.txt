@@ -1,0 +1,7 @@
+Account Number: 21894318991
+
+BSB Number: 724
+
+Balance: 0.0
+
+Daily Withdraw Total: 678.45

@@ -1,0 +1,289 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/05/2019, 8:05:44 PM
+    Author     : jolta
+*/
+
+
+#root {
+    -fx-background-color: Gainsboro;
+
+
+
+
+
+
+}
+
+#topBox {
+
+    -fx-border: 2px;
+    -fx-border-color: black;
+    -fx-pref-height: 60px;
+    -fx-background-color: DimGray;
+}
+
+#centerBox {
+
+    -fx-border: 2px;
+    -fx-border-color: Gainsboro;
+    -fx-background-color: Gainsboro;
+}
+
+#column {
+
+    -fx-pref-width: 200px;
+    -fx-background-color: CornflowerBlue;
+}
+
+#footerBox {
+
+    -fx-border: 2px;
+    -fx-pref-height: 350px;
+    -fx-border-color: black;
+    -fx-background-color: DimGray;
+}
+
+#pinBox {
+
+    -fx-background-color: CornflowerBlue;
+}
+#keyPadGrid {
+
+    -fx-padding: 5px;
+    -fx-pref-height: 300px;
+    -fx-background-color: DimGray;
+}
+#keyPadBox {
+
+    -fx-padding: 5px;
+    -fx-pref-height: 300px;
+    -fx-background-color: DimGray;
+}
+#keyPadBtn {
+
+    -fx-border: 5px;
+    -fx-border-color: black;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 80px;
+    -fx-background-color: gray;
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+}
+#blankKeyBtn {
+
+    -fx-border: 5px;
+    -fx-border-color: black;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 80px;
+    -fx-background-color: gray;
+}
+#blankBtn {
+
+    -fx-border: 5px;
+    -fx-border-color: black;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 120px;
+    -fx-background-color: gray;
+}
+#enterBtn {
+
+    -fx-border: 5px;
+    -fx-border-color: black;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 120px;
+    -fx-background-color: green;
+    -fx-font-size: 18px;
+    -fx-font-weight: bolder;
+}
+#clearBtn {
+
+    -fx-border: 5px;
+    -fx-border-color: black;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 120px;
+    -fx-background-color: yellow;
+    -fx-font-size: 18px;
+    -fx-font-weight: bolder;
+}
+#cancelBtn {
+
+    -fx-border: 5px;
+    -fx-border-color: black;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 120px;
+    -fx-background-color: red;
+    -fx-font-size: 18px;
+    -fx-font-weight: bolder;
+}
+#keyPadBtn:pressed {
+
+    -fx-background-color: Silver;
+}
+#enterBtn:pressed {
+
+    -fx-background-color: MediumSeaGreen;	
+}
+#clearBtn:pressed {
+
+    -fx-background-color: Khaki;
+}
+#cancelBtn:pressed {
+
+    -fx-background-color: FireBrick;
+}
+#pinLabel {
+
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+}
+
+#pinField {
+
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+    -fx-max-width: 150px;
+}
+#amountBtn {
+
+    -fx-background-color: Gold;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 150px;
+    -fx-border: 2px;
+    -fx-border-color: black;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+}
+#amountBtn:pressed {
+
+    -fx-background-color: Khaki;
+}
+
+#activeAmountBtn {
+
+    -fx-background-color: OrangeRed;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 150px;
+    -fx-border: 8px;
+    -fx-border-color: green;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+}
+
+#transactionBtn {
+
+    -fx-background-color: Gold;
+    -fx-pref-height: 70px;
+    -fx-pref-width: 450px;
+    -fx-border: 2px;
+    -fx-border-color: black;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+}
+#transactionBtn:pressed {
+
+    -fx-background-color: Khaki;
+}
+
+#transactionLabel {
+
+
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+}
+#cancelReturnBtn {
+
+    -fx-background-color: Gold;
+    -fx-font-size: 15px;
+    -fx-font-weight: bolder;
+    -fx-pref-height: 70px;
+    -fx-pref-width: 200px;
+    -fx-border: 2px;
+    -fx-border-color: black;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+#cancelReturnBtn:pressed {
+
+    -fx-background-color: Khaki;
+}
+
+#continueTransactionBtn {
+
+    -fx-background-color: Gold;
+    -fx-font-size: 15px;
+    -fx-font-weight: bolder;
+    -fx-pref-height: 70px;
+    -fx-pref-width: 200px;
+    -fx-border: 2px;
+    -fx-border-color: black;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+#continueTransactionBtn:pressed {
+
+    -fx-background-color: Khaki;
+}
+
+#cancelTransactionBtn {
+
+    -fx-background-color: Gold;
+    -fx-font-size: 15px;
+    -fx-font-weight: bolder;
+    -fx-pref-height: 70px;
+    -fx-pref-width: 200px;
+    -fx-border: 2px;
+    -fx-border-color: black;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+#cancelTransactionBtn:pressed {
+
+    -fx-background-color: Khaki;
+}
+#accountBtn {
+
+    -fx-background-color: Gold;
+    -fx-pref-height: 70px;
+    -fx-pref-width: 450px;
+    -fx-border: 2px;
+    -fx-border-color: black;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+}
+
+#accountBtn:pressed {
+
+    -fx-background-color: Khaki;
+}
+
+#amountField {
+
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+    -fx-max-width: 300px;
+}

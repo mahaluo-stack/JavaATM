@@ -1,0 +1,8 @@
+Account Number: 45570089550
+
+BSB Number: 782
+
+Balance: 234.5
+
+Daily Withdraw Total: 0.0
+

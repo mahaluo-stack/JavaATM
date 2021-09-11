@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/05/2019, 9:46:30 PM
+    Author     : jolta
+*/
+
+#root {
+    -fx-background-color: Gainsboro;
+
+
+
+
+
+
+}
+
+#topBox {
+
+    -fx-border: 2px;
+    -fx-border-color: SteelBlue;
+    -fx-pref-height: 200px;
+    -fx-background-color: Gainsboro;
+}
+
+#centerBox {
+
+    -fx-border: 2px;
+    -fx-border-color: SteelBlue;
+    -fx-background-color: Gainsboro;
+}
+
+#rightBox {
+
+    -fx-pref-width: 200px;
+    -fx-border: 2px;
+    -fx-border-color: SteelBlue;
+    -fx-background-color: Gainsboro;
+}
+
+#leftBox {
+
+    -fx-pref-width: 200px;
+    -fx-border: 2px;
+    -fx-border-color: SteelBlue;
+    -fx-background-color: Gainsboro;
+}
+
+#footerBox {
+
+    -fx-border: 2px;
+    -fx-border-color: SteelBlue;
+    -fx-background-color: Gainsboro;
+}
+#signInBtn{
+
+
+    -fx-pref-width: 300px;
+    -fx-background-color: SteelBlue;
+    -fx-border: 2px;
+    -fx-border-color: white;
+
+}
+
+#signInBtn:pressed {
+
+    -fx-border-color: black;
+}
+
+#footerBtn {
+
+    -fx-pref-width: 300px;
+    -fx-pref-height: 50px;
+    -fx-background-color: SteelBlue;
+    -fx-border: 2px;
+    -fx-border-color: white;
+}
+
+#footerBtn:pressed {
+
+    -fx-border-color: black;
+}
+
+#toggleBtn {
+
+    -fx-pref-width: 160px;
+    -fx-pref-height: 20px;
+    -fx-background-color: SteelBlue;
+    -fx-border: 2px;
+    -fx-border-color: white;
+}
+#toggleBtn:pressed {
+
+    -fx-border-color: black;
+}
+#signInPageField {
+
+    -fx-max-width: 300px;
+
+}
+
+#accountBtn {
+
+    -fx-pref-width: 200px;
+    -fx-pref-height: 20px;
+    -fx-background-color: SteelBlue;
+    -fx-border: 2px;
+    -fx-border-color: white;
+}
+
+#accountBtn:pressed {
+
+    -fx-border-color: black;
+}
+
+#openAccountLabel {
+
+    -fx-font-size: 20px;
+}
+#welcomeLabel{
+
+
+    -fx-font-size: 20px;
+}
+
+#confirmAccountLabel {
+    
+     -fx-font-size: 13px;
+}
